@@ -1,0 +1,28 @@
+#holder {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+#text {
+  text-align: center;
+  color: white;
+  font-family: arial;
+}
+input {
+  text-align: center;
+  margin: 5px;
+  clear: both;
+  float: left;
+  background: none;
+  border-color: #ffffff;
+  width: 15vw;
+  height: 25px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+input::placeholder {
+  color: #ffffff;
+}
+input:focus {
+  outline-width: 0;
+}
