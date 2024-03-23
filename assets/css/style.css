@@ -66,6 +66,13 @@ h6 {
   overflow-y: auto;
   justify-content: flex-end;
 }
+
+.img-fluid-icon-click{
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+
+}
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -103,7 +110,7 @@ h6 {
 }
 
 #header h2 {
-  font-size: 24px;
+  font-size: 36px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
 }
