@@ -29,6 +29,13 @@ body::before {
   z-index: -1;
 }
 
+.background-suplo{
+  background: #040404 url("../img/background/bg.gif") top right no-repeat; 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -286,14 +293,14 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: white;;
+  color: #bbeaff;;
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: white;;
+  color: #bbeaff;;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1287,3 +1294,9 @@ section .container {
   text-transform: uppercase;
   font-weight:600;
 }
+
+/* .navbar-mobile{
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+} */
