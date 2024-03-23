@@ -76,7 +76,6 @@ h6 {
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
-  max-height: 100vh;
   display: flex;
   align-items: center;
   z-index: 997;
