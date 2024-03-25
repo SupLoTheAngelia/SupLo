@@ -29,6 +29,10 @@ $(document).ready(function () {
         $('#support-suplo').addClass('mobile')
         $('#credits-suplo').addClass('mobile')
         $('.donate').addClass('mobile')
+        $('#aboutme').addClass('mobile')
+        $('.credits-flow').addClass('mobile')
+
+
 
     }
 

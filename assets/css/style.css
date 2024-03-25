@@ -1324,11 +1324,11 @@ section .container {
   font-size: 16px;
   flex-direction: column;
 } */
-.credits-flow{
+.credits-flow.mobile{
   overflow-x: auto;
   max-height: 60vh;
 }
-.aboutme-flow{
+.aboutme-flow.mobile{
   max-height: 80vh;
   overflow-y: auto;
 }
