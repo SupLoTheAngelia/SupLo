@@ -1328,3 +1328,6 @@ section .container {
   overflow-x: auto;
   max-height: 60vh;
 }
+.social-links{
+  padding-bottom: 30px;
+}
