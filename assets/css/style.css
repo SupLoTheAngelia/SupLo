@@ -414,7 +414,7 @@ section .container {
   font-size: 24px;
   font-weight: 500;
   padding: 0;
-  line-height: 1px;
+  line-height: 10px;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -1327,6 +1327,10 @@ section .container {
 .credits-flow{
   overflow-x: auto;
   max-height: 60vh;
+}
+.aboutme-flow{
+  max-height: 80vh;
+  overflow-y: auto;
 }
 .social-links{
   padding-bottom: 30px;
