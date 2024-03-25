@@ -30,10 +30,11 @@ body::before {
 }
 
 .background-suplo{
-  background: #bbeaff url("../img/background/bg.png") top right no-repeat; 
-  background-position: center; /* Center the image */ /* Do not repeat the image */
+  background: #bbeaff url("../img/background/bg.png") repeat-x center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: repeat-y;
 }
 
 @media (min-width: 1024px) {
@@ -1323,3 +1324,7 @@ section .container {
   font-size: 16px;
   flex-direction: column;
 } */
+.credits-flow{
+  overflow-x: auto;
+  max-height: 60vh;
+}
