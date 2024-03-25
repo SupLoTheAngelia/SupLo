@@ -31,9 +31,9 @@ body::before {
 
 .background-suplo{
   background: #bbeaff url("../img/background/bg.png") top right no-repeat; 
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* Center the image */ /* Do not repeat the image */
   background-size: cover;
+  background-repeat: repeat-y;
 }
 
 @media (min-width: 1024px) {
@@ -300,8 +300,9 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #bbeaff;;
-  font-size: 28px;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bolder;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -1228,6 +1229,25 @@ section .container {
   width: fit-content;
   min-width: 120px;
 }
+
+.donate.mobile{
+  width: 80px;
+  padding: 10px;
+} 
+.header-top .suplo-logo.mobile{
+  width: 120px;
+}
+
+.group-aboutme-suplo.mobile{
+  width: fit-content;
+}
+.group-aboutme-suplo.mobile .aboutme-image{
+  width: 20%;
+}
+.group-aboutme-suplo.mobile .showlanger-image{
+  width: 60%;
+}
+
 #container-header.suplo{
   display: flex;
   flex-direction: column;

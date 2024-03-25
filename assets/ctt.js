@@ -24,6 +24,12 @@ $(document).ready(function () {
     } else {
         $("#navbar-ul").addClass('navbar-mobile')
         $('.parallax-list').addClass('background-suplo')
+        $('#logo-suplo').addClass('mobile')
+        $('#about-suplo').addClass('mobile')
+        $('#support-suplo').addClass('mobile')
+        $('#credits-suplo').addClass('mobile')
+        $('.donate').addClass('mobile')
+
     }
 
 });
